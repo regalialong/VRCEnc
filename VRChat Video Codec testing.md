@@ -1,4 +1,4 @@
-![[VRCEnc_cover.webp]]
+![](https://raw.githubusercontent.com/regalialong/VRCEnc/main/VRCEnc_cover.webp)
 
 Scroll to the bottom for combined data / conclusions, [Table on Google Sheets is published here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQxBsc2B5SJczNYwjZ6gLKG1sCrh2aMBE16nlpnVOuRH2jwXpkuBl9nr8-XSOe_x2C_gH6vz74rl22U/pubhtml).
 
@@ -33,7 +33,7 @@ Assuming you don't know what any of this means, this section will try to bring y
 Doing video is incredibly expensive in storage terms, you are storing potentially thousands of small images spliced together and audio to accompany it.
 In order to cut back on the storage and bandwidth costs, video compression is used to reduce the size of video. Video compression allows trading computing resources (i.e. your CPU or GPU doing work) for smaller file sizes. This is how video streaming services such as YouTube and Netflix are able to exist in the first place (although video still remains very expensive in the grand scheme of things).
 
-![[VRCEnc_CompressionDemonstration.png]]
+![](https://raw.githubusercontent.com/regalialong/VRCEnc/main/VRCEnc_CompressionDemonstration.png)
 (Even though we have the same video, one is significantly smaller (35MB vs 84MB, a -58% reduction)! Huzzah!)
 
 Some jargon:
@@ -46,7 +46,7 @@ File formats such as `webm` and `mp4` are not actually a specific codec, but the
 This is how both video (as in moving pictures) and audio can be combined into a single file, rather than two separate files.
 This also allows combining multiple video and audio tracks in DVDs for example.
 
-![[VRCEnc_MediaInfo.png]]
+![](https://raw.githubusercontent.com/regalialong/VRCEnc/main/VRCEnc_MediaInfo.png)
 (Tools like MediaInfo can be used to figure out what the contents of a video are. In this case, our smaller file was a webm file containing AV1 with Opus audio.)
 
 The same effectively applies for audio, although audio is cheaper than video.
